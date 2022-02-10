@@ -1,18 +1,490 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width" />
-  <title>Aman Patel</title>
-  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    <title>Aman Patel | MERN Stack Developer</title>
 </head>
 <body>
-  <div class="container">
-  <div class="glitch" data-text="AmanPatel">AmanPatel</div>
-  <div class="glow">AmanPatel</div>
-  <p class="subtitle">full stack developer</p>
-  </div>
-  <div class="scanlines"></div>
+        <header>
+            <div class="container">
+              <nav id="navigation">
+                <a href="#" class="logo">Aman Patel</a>
+                <a aria-label="mobile menu" class="nav-toggle">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>
+                  <ul class="menu-left">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+              </nav>
+            </div>
+          </header>
+    
+    <section id="home">
+     <div class="container">
+            
+        <div class="middle">
+            <span class="text-type-animation"><strong>Aman Patel</strong>  <br>
+              <span
+                    class="txt-rotate"
+                    data-period="1000"
+                    data-rotate='[ "MERN Stack Developer", "Full Stack Developer"]'></span>
+             </span>
+           </div>
+     </div>
+     <canvas></canvas>
+    </section>      
+    
+    <section id="about">
+    <div class="container">
+            
+      <h1>ABOUT ME<span class="blinking-cursor">|</span></h1>
+      <div class="Profile">
+            <img src="https://s3-us-west-2.amazonaws.com/harriscarney/images/120x120.png"/>
+            <span>Aman Patel</span>
+          </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, nam. Delectus, pariatur assumenda veniam minima, fuga sequi animi qui ab, deserunt quasi labore laboriosam ipsam sapiente nostrum. Porro, quibusdam enim.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, nam. Delectus, pariatur assumenda veniam minima, fuga sequi animi qui ab, deserunt quasi labore laboriosam ipsam sapiente nostrum. Porro, quibusdam enim.</p>
+      </div>
+      <button class='myButt one' >
+            <div class='insider'></div>
+        <a href="Anup-CV.pdf">	<i class="fa fa-download" aria-hidden="true"></i>Download CV</a>
+        </button>
+    </section>
+    
+    <section id="skills">
+      <div class="container">
+    
+      <h1>SKILLS<span class="blinking-cursor">|</span></h1></div>
+      <div class="SkillBar">
+        <div id="Skill-HTML"> 
+          <span class="Skill-Area ">HTML</span>
+          <span class="PercentText ">100%</span>
+        </div>
+      </div>
+      
+      <div class="SkillBar">
+        <div id="Skill-CSS">
+          <span class="Skill-Area ">CSS/CSS3</span>
+          <span class="PercentText ">70%</span>
+        </div>
+      </div>
+    
+      <div class="SkillBar">
+        <div id="Skill-jQuery">
+          <span class="Skill-Area ">jQuery</span>
+          <span class="PercentText ">40%</span>
+        </div>
+      </div>
+      
+      <div class="SkillBar">
+        <div id="Skill-JS">
+          <span class="Skill-Area ">JS</span>
+          <span class="PercentText ">65%</span>
+        </div>
+      </div>
+      
+        <div class="SkillBar">
+        <div id="Skill-PYTHON">
+          <span class="Skill-Area ">PYTHON </span>
+          <span class="PercentText ">50%</span>
+        </div>
+      </div>
+      
+        <div class="SkillBar">
+        <div id="Skill-PHP">
+          <span class="Skill-Area ">PHP </span>
+          <span class="PercentText ">50%</span>
+        </div>
+      </div>
+      
+        <div class="SkillBar">
+        <div id="Skill-SQL">
+          <span class="Skill-Area ">SQL </span>
+          <span class="PercentText ">80%</span>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+    <section id="projects">
+      <div class="container">
+      <h1>PROJECTS<span class="blinking-cursor">|</span></h1> </div>
+      <div class="main">
+        <ul class="cards">
+            <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="a.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Boiz App</h2>
+                <p class="card_text">Frontend Coded using---- <br>HTML/CSS, <br> JS<br>!work in progress!</p>
+               <a href="okayG/index.html"><button class="btn card_btn">Visit Website</button></a> 
+              </div>
+            </div>
+          </li>
+            <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="a.jpg"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">TrigonometryFormula.com</h2>
+                    <p class="card_text">Frontend Coded using---- <br>HTML/CSS, <br> JS/JQUERY, Bootstrap <br>!work in progress!</p>
+                    <a href="leader/index.html">  <button class="btn card_btn">Visit Website</button></a>
+                  </div>
+                </div>
+              </li>
+            <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="a.jpg"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Virtual Website</h2>
+                    <p class="card_text">Frontend Coded using---- <br>HTML/CSS, <br> JS/JQUERY, Bootstrap <br>!work in progress!</p>
+                    <a href="logo/index.html">  <button class="btn card_btn">Visit Website</button></a>
+                  </div>
+                </div>
+              </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="a.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Virtual Coffee Shop Website</h2>
+                <p class="card_text">Frontend Coded using---- <br>HTML/CSS, <br> JS/JQUERY <br>!work in progress!</p>
+                <a href="coffee shop/index.html">  <button class="btn card_btn">Visit Website</button></a>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="a.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Virtual Events Company Website</h2>
+                <p class="card_text">Frontend Coded using---- <br>HTML/CSS, <br> JS/JQUERY <br>!work in progress!</p>
+                <a href="adams.co/index.html"> <button class="btn card_btn">Visit Website</button></a>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="a.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Virtual Company Website</h2>
+                <p class="card_text">Frontend Coded using---- <br>HTML/CSS, <br> JS/JQUERY <br>!work in progress!</p>
+               <a href="company/index.html"><button class="btn card_btn">Visit Website</button></a> 
+              </div>
+            </div>
+          </li>
+              
+          </ul>
+          </div>
+    </section>
+    
+    <section id="contact">
+      <div class="container">
+      <h1>CONTACT<span class="blinking-cursor">|</span></h1>
+      <form class="cf">
+        <div class="half left cf">
+          <input type="text" id="input-name" placeholder="Name">
+          <input type="email" id="input-email" placeholder="Email address">
+          <input type="text" id="input-subject" placeholder="Subject">
+        </div>
+        <div class="half right cf">
+          <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+        </div>  
+        <input type="submit" value="Submit" id="input-submit">
+      </form>
+    
+     
+    
+    </div>
+    <div class='demopadding'>
+      <div class='icon social in'><a href="https://www.linkedin.com/in/anup-r-1b1163177/"><i class='fa fa-linkedin'></a></i></div>
+        <div class='icon social tw'><a href="https://github.com/Anup1410"><i class='fa fa-github'></i></a></div>
+        <div class='icon social fb'> <a href="https://www.facebook.com/Now.uc.me.haha/"> <i class='fa fa-instagram'> </a> </i></div>
+        
+        <h5 title="email" >Email: amanpatel255025@gmail.com</h5>
+      </div>  
+     
+    </section>
+    
+    <script>
+        var canvas = $('canvas')[0];
+var context = canvas.getContext('2d');
+
+var Dots = [];
+var ID = 0;
+var colors = ['#FF9900', '#424242', '#BCBCBC', '#3299BB', '#B9D3B0', '#81BDA4', '#F88F79', '#F6AA93'];
+var maximum = 100;
+
+function Dot() {
+  this.active = true;
+  this.id = ID; ID++;
+  
+  this.diameter = 2 + Math.random() * 7;
+
+  this.x = Math.round(Math.random() * canvas.width);
+  this.y = Math.round(Math.random() * canvas.height);
+  
+  this.velocity = {
+    x: (Math.random() < 0.5 ? -1 : 1) * Math.random() * 0.4,
+    y: (Math.random() < 0.5 ? -1 : 1) * Math.random() * 0.4
+  };
+
+  this.alpha = 0.1;
+  this.maxAlpha = this.diameter < 5 ? 0.3 : 0.8;
+  this.hex = colors[Math.round(Math.random() * 7)];
+  this.color = HexToRGBA(this.hex, this.alpha);
+}
+
+Dot.prototype = {
+  Update: function() {
+    if(this.alpha <= this.maxAlpha) {
+      this.alpha += 0.005;
+      this.color = HexToRGBA(this.hex, this.alpha);
+    }
+
+    this.x += this.velocity.x;
+    this.y += this.velocity.y;
+
+    if(this.x > canvas.width + 5 || this.x < 0 - 5 || this.y > canvas.height + 5 || this.y < 0 - 5) {
+      this.active = false;
+    }
+  },
+
+  Draw: function() {
+    context.strokeStyle = this.color;
+    context.fillStyle = this.color;
+    context.save();
+    context.beginPath();
+    context.translate(this.x, this.y);
+    context.moveTo(0, -this.diameter);
+
+    for (var i = 0; i < 7; i++)
+    {
+      context.rotate(Math.PI / 7);
+      context.lineTo(0, -(this.diameter / 2));
+      context.rotate(Math.PI / 7);
+      context.lineTo(0, -this.diameter);
+    }
+
+    if(this.id % 2 == 0) {
+      context.stroke();
+    } else {
+      context.fill();
+    }
+    
+    context.closePath();
+    context.restore();
+  }
+}
+
+function Update() {
+  GenerateDots();
+
+  Dots.forEach(function(Dot) {
+    Dot.Update();
+  });
+
+  Dots = Dots.filter(function(Dot) {
+    return Dot.active;
+  });
+
+  Render();
+  requestAnimationFrame(Update);
+}
+
+function Render() {
+  context.clearRect(0, 0, canvas.width, canvas.height);
+  Dots.forEach(function(Dot) {
+    Dot.Draw();
+  });
+}
+
+function GenerateDots() {
+  if(Dots.length < maximum) {
+    for(var i = Dots.length; i < maximum; i++) {
+      Dots.push(new Dot());
+    }
+  }
+
+  return false;
+}
+
+function HexToRGBA(hex, alpha) {
+  var red = parseInt((TrimHex(hex)).substring(0, 2), 16);
+  var green = parseInt((TrimHex(hex)).substring(2, 4), 16);
+  var blue = parseInt((TrimHex(hex)).substring(4, 6), 16);
+
+  return 'rgba(' + red + ', ' + green + ', ' + blue + ', ' + alpha + ')';
+}
+
+function TrimHex(hex) {
+  return (hex.charAt(0) == "#") ? hex.substring(1, 7) : hex;
+}
+
+function WindowSize(width, height) {
+  if(width != null) { canvas.width = width; } else { canvas.width = window.innerWidth; }
+  if(height != null) { canvas.height = height; } else { canvas.height = window.innerHeight; }
+  
+}
+
+$(window).resize(function() {
+  Dots = [];
+  WindowSize();
+});
+
+WindowSize();
+GenerateDots();
+Update();
+
+// NAVIGATION LOGO SCROLL TOP
+$('.logo').on('click', function(e) {
+    e.preventDefault();
+    $('.nav-toggle').removeClass('open');
+    $('.menu-left').removeClass('collapse');
+    $('html, body').animate({
+      scrollTop: 0
+    }, 750, 'easeInOutQuad')
+  });
+  // LINKS TO ANCHORS
+  $('a[href^="#"]').on('click', function(event) {
+  
+    var $target = $(this.getAttribute('href'));
+  
+    if($target.length) {
+      event.preventDefault();
+      $('html, body').stop().animate({
+        scrollTop: $target.offset().top
+      }, 750, 'easeInOutQuad');
+    }
+  });
+  
+  // TOGGLE HAMBURGER & COLLAPSE NAV
+  $('.nav-toggle').on('click', function() {
+    $(this).toggleClass('open');
+    $('.menu-left').toggleClass('collapse');
+  });
+  // REMOVE X & COLLAPSE NAV ON ON CLICK
+  $('.menu-left a').on('click', function() {
+    $('.nav-toggle').removeClass('open');
+    $('.menu-left').removeClass('collapse');
+  });
+  
+  // SHOW/HIDE NAV
+  
+  // Hide Header on on scroll down
+  var didScroll;
+  var lastScrollTop = 0;
+  var delta = 5;
+  var navbarHeight = $('header').outerHeight();
+  
+  $(window).scroll(function(event){
+      didScroll = true;
+  });
+  
+  setInterval(function() {
+      if (didScroll) {
+          hasScrolled();
+          didScroll = false;
+      }
+  }, 250);
+  
+  function hasScrolled() {
+      var st = $(this).scrollTop();
+  
+      // Make sure they scroll more than delta
+      if(Math.abs(lastScrollTop - st) <= delta)
+          return;
+  
+      // If they scrolled down and are past the navbar, add class .nav-up.
+      // This is necessary so you never see what is "behind" the navbar.
+      if (st > lastScrollTop && st > navbarHeight){
+          // Scroll Down
+          $('header').removeClass('show-nav').addClass('hide-nav');
+          $('.nav-toggle').removeClass('open');
+          $('.menu-left').removeClass('collapse');
+      } else {
+          // Scroll Up
+          if(st + $(window).height() < $(document).height()) {
+              $('header').removeClass('hide-nav').addClass('show-nav');
+          }
+      }
+  
+      lastScrollTop = st;
+  }
+
+var TxtRotate = function(el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 100) || 4000;
+    this.txt = '';
+    this.tick();
+    this.isDeleting = false;
+  };
+  
+  TxtRotate.prototype.tick = function() {
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
+  
+    if (this.isDeleting) {
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+  
+    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+  
+    var that = this;
+    var delta = 150 - Math.random() * 100;
+  
+    if (this.isDeleting) { delta /= 2; }
+  
+    if (!this.isDeleting && this.txt === fullTxt) {
+      delta = this.period;
+      this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === '') {
+      this.isDeleting = false;
+      this.loopNum++;
+      delta = 1000;
+    }
+  
+    setTimeout(function() {
+      that.tick();
+    }, delta);
+  };
+  
+  window.onload = function() {
+    var elements = document.getElementsByClassName('txt-rotate');
+    for (var i=0; i<elements.length; i++) {
+      var toRotate = elements[i].getAttribute('data-rotate');
+      var period = elements[i].getAttribute('data-period');
+      if (toRotate) {
+        new TxtRotate(elements[i], JSON.parse(toRotate), period);
+      }
+    }
+    // INJECT CSS
+    var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #F26921 }";
+    document.body.appendChild(css);
+  };
+  
+    </script>
+    
+    <script src="app.js"></script>
+    <script src="string.js"></script>
+    <script src="canvas.js"></script>
+
+
 </body>
 </html>
