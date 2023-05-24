@@ -1,488 +1,177 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Aman Patel | MERN Stack Developer</title>
-    <meta name="description" content="I am a full-stack developer with problem-solving skills and experience. I have knowledge about database, server, system engineering, front-end, and back-end development. Furthermore, I never gave up and constantly learned new skills and gathered more knowledge to become a better version of myself.">
-	  <meta name="keywords" content="Aman Patel, MERN Stack Developer, Full Stack Developer" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aman Patel - Software Engineer</title>
+    <meta name="description"
+        content="Aman Patel is a Software Engineer who likes to build full stack projects. He has knowledge about data structures and algorithms, databases, servers, front-end and back-end development." />
+    <meta name="keywords" content="Aman Patel, aman0, Software Engineer" />
+    <link rel="icon" href="src/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
+
 <body>
-        <header>
-            <div class="container">
-              <nav id="navigation">
-                <a href="https://amanp8l.github.io/" class="logo">Aman Patel</a>
-                <a aria-label="mobile menu" class="nav-toggle">
-                  <span></span>
-                  <span></span>
-                  <span></span>
+    <div style="max-width: 90%; margin-left: 5%; font-family:rockwell; ">
+        <nav class="navbar fixed-top navbar-expand-lg bg-white">
+            <div style="max-width: 90%; margin-left: 5%;" class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="src/logo.svg" alt="Aman0.com" height="24" class="d-inline-block align-text-top">
                 </a>
-                  <ul class="menu-left">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                  </ul>
-              </nav>
-            </div>
-          </header>
-    
-    <section id="home">
-     <div class="container">
-            
-        <div class="middle">
-            <span class="text-type-animation"><strong>Aman Patel</strong>  <br>
-              <span
-                    class="txt-rotate"
-                    data-period="1000"
-                    data-rotate='[ "MERN Stack Developer", "Full Stack Developer"]'></span>
-             </span>
-           </div>
-     </div>
-     <canvas></canvas>
-    </section>      
-    
-    <section id="about">
-    <div class="container">
-            
-      <h1>ABOUT ME<span class="blinking-cursor">|</span></h1>
-      <div class="Profile">
-            <img src="https://s3-us-west-2.amazonaws.com/harriscarney/images/120x120.png"/>
-            <span>Aman Patel</span>
-          </div>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, nam. Delectus, pariatur assumenda veniam minima, fuga sequi animi qui ab, deserunt quasi labore laboriosam ipsam sapiente nostrum. Porro, quibusdam enim.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, nam. Delectus, pariatur assumenda veniam minima, fuga sequi animi qui ab, deserunt quasi labore laboriosam ipsam sapiente nostrum. Porro, quibusdam enim.</p>
-      </div>
-      <button class='myButt one' >
-            <div class='insider'></div>
-        <a href="Anup-CV.pdf">	<i class="fa fa-download" aria-hidden="true"></i>Download CV</a>
-        </button>
-    </section>
-    
-    <section id="skills">
-      <div class="container">
-    
-      <h1>SKILLS<span class="blinking-cursor">|</span></h1></div>
-      <div class="SkillBar">
-        <div id="Skill-HTML"> 
-          <span class="Skill-Area ">HTML</span>
-          <span class="PercentText ">100%</span>
-        </div>
-      </div>
-      
-      <div class="SkillBar">
-        <div id="Skill-CSS">
-          <span class="Skill-Area ">CSS/CSS3</span>
-          <span class="PercentText ">70%</span>
-        </div>
-      </div>
-    
-      <div class="SkillBar">
-        <div id="Skill-jQuery">
-          <span class="Skill-Area ">jQuery</span>
-          <span class="PercentText ">40%</span>
-        </div>
-      </div>
-      
-      <div class="SkillBar">
-        <div id="Skill-JS">
-          <span class="Skill-Area ">JS</span>
-          <span class="PercentText ">65%</span>
-        </div>
-      </div>
-      
-        <div class="SkillBar">
-        <div id="Skill-PYTHON">
-          <span class="Skill-Area ">PYTHON </span>
-          <span class="PercentText ">50%</span>
-        </div>
-      </div>
-      
-        <div class="SkillBar">
-        <div id="Skill-PHP">
-          <span class="Skill-Area ">PHP </span>
-          <span class="PercentText ">50%</span>
-        </div>
-      </div>
-      
-        <div class="SkillBar">
-        <div id="Skill-SQL">
-          <span class="Skill-Area ">SQL </span>
-          <span class="PercentText ">80%</span>
-        </div>
-      </div>
-    </div>
-    </section>
-    
-    <section id="projects">
-      <div class="container">
-      <h1>PROJECTS<span class="blinking-cursor">|</span></h1> </div>
-      <div class="main">
-        <ul class="cards">
-            <li class="cards_item">
-            <div class="card">
-              <div class="card_image"><img src="a.jpg"></div>
-              <div class="card_content">
-                <h2 class="card_title">Boiz App</h2>
-                <p class="card_text">Frontend Coded using---- <br>HTML/CSS, <br> JS<br>!work in progress!</p>
-               <a href="okayG/index.html"><button class="btn card_btn">Visit Website</button></a> 
-              </div>
-            </div>
-          </li>
-            <li class="cards_item">
-                <div class="card">
-                  <div class="card_image"><img src="a.jpg"></div>
-                  <div class="card_content">
-                    <h2 class="card_title">TrigonometryFormula.com</h2>
-                    <p class="card_text">Frontend Coded using---- <br>HTML/CSS, <br> JS/JQUERY, Bootstrap <br>!work in progress!</p>
-                    <a href="leader/index.html">  <button class="btn card_btn">Visit Website</button></a>
-                  </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#project">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#skill">Skill</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-              </li>
-            <li class="cards_item">
-                <div class="card">
-                  <div class="card_image"><img src="a.jpg"></div>
-                  <div class="card_content">
-                    <h2 class="card_title">Virtual Website</h2>
-                    <p class="card_text">Frontend Coded using---- <br>HTML/CSS, <br> JS/JQUERY, Bootstrap <br>!work in progress!</p>
-                    <a href="logo/index.html">  <button class="btn card_btn">Visit Website</button></a>
-                  </div>
-                </div>
-              </li>
-          <li class="cards_item">
-            <div class="card">
-              <div class="card_image"><img src="a.jpg"></div>
-              <div class="card_content">
-                <h2 class="card_title">Virtual Coffee Shop Website</h2>
-                <p class="card_text">Frontend Coded using---- <br>HTML/CSS, <br> JS/JQUERY <br>!work in progress!</p>
-                <a href="coffee shop/index.html">  <button class="btn card_btn">Visit Website</button></a>
-              </div>
             </div>
-          </li>
-          <li class="cards_item">
-            <div class="card">
-              <div class="card_image"><img src="a.jpg"></div>
-              <div class="card_content">
-                <h2 class="card_title">Virtual Events Company Website</h2>
-                <p class="card_text">Frontend Coded using---- <br>HTML/CSS, <br> JS/JQUERY <br>!work in progress!</p>
-                <a href="adams.co/index.html"> <button class="btn card_btn">Visit Website</button></a>
-              </div>
-            </div>
-          </li>
-          <li class="cards_item">
-            <div class="card">
-              <div class="card_image"><img src="a.jpg"></div>
-              <div class="card_content">
-                <h2 class="card_title">Virtual Company Website</h2>
-                <p class="card_text">Frontend Coded using---- <br>HTML/CSS, <br> JS/JQUERY <br>!work in progress!</p>
-               <a href="company/index.html"><button class="btn card_btn">Visit Website</button></a> 
-              </div>
-            </div>
-          </li>
-              
-          </ul>
-          </div>
-    </section>
-    
-    <section id="contact">
-      <div class="container">
-      <h1>CONTACT<span class="blinking-cursor">|</span></h1>
-      <form class="cf">
-        <div class="half left cf">
-          <input type="text" id="input-name" placeholder="Name">
-          <input type="email" id="input-email" placeholder="Email address">
-          <input type="text" id="input-subject" placeholder="Subject">
+        </nav>
+        <div id="#" style="text-align: center; margin-top: 100px;">
+            <h1>Hello! I'm <span style="text-decoration: underline wavy green 2px;">Aman Patel</span></h1>
         </div>
-        <div class="half right cf">
-          <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
-        </div>  
-        <input type="submit" value="Submit" id="input-submit">
-      </form>
-    
-     
-    
+        <div
+            style="background-image: url('src/SOFTWARE.svg'); background-repeat: no-repeat; background-size: 90%; background-position-x: center; background-position-y: 30%;">
+            <div
+                style="background-image: url('src/aman.png'); background-repeat: no-repeat; background-size: 30%; background-position-x: center; background-position-y: 40%;">
+                <img src="src/ENGINEER.svg" alt="Aman0.com" width="100%" class="mx-auto d-block">
+            </div>
+        </div>
+        <div id="about" style="padding-top: 7%;">
+            <img src="src/about.svg" alt="Aman0.com" width="50%" class="mx-auto d-block">
+            <p style="font-size: 150%; text-align: justify; text-justify: inter-word;">Namaste! My name is Aman Patel, I am from Akbarpur, Uttar Pradesh. I have done my schooling from Akbarpur only. I have completed my graduation from Indian Institute of Science Education & Research Bhopal(IISER Bhopal), and I enjoy developing full stack projects. And I have knowledge about data structures and algorithms, server, front-end and back-end development. I am constantly learning new skills and gaining more knowledge to better myself.</p>
+        </div>
+        <div id="project" style="padding-top: 7%;">
+            <img src="src/project.svg" alt="Aman0.com" width="50%" class="mx-auto d-block">
+            <p style="font-size: 150%; text-align: justify; text-justify: inter-word;">Some projects I’ve Built. Listing soon..</p>
+            <div class="row">
+                <div style="padding: 3%; color: black;" class="col-sm-6">
+                    <div class="card">
+                        <img style="height: 180px; opacity: 50%;" src="src/project.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-dark">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding: 3%; color: black;" class="col-sm-6">
+                    <div class="card">
+                        <img style="height:180px; opacity: 50%;" src="src/project.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-dark">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div style="padding: 3%; color: black;" class="col-sm-6">
+                    <div class="card">
+                        <img style="height: 180px; opacity: 50%;" src="src/project.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-dark">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding: 3%; color: black;" class="col-sm-6">
+                    <div class="card">
+                        <img style="height:180px; opacity: 50%;" src="src/project.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-dark">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="skill" style="padding-top: 7%;">
+            <img src="src/skill.svg" alt="Aman0.com" width="50%" class="mx-auto d-block">
+            <p style="font-size: 150%; text-align: justify; text-justify: inter-word;"><br><b>Languages:-</b> Java, SQL (MySQL), HTML, CSS, JavaScript, PHP.<br><b>Developer Tools:-</b> VS Code, NetBeans, IntelliJ IDEA, Postman, Filezilla, Android Studio, Putty, XAMPP.<br><b>Technologies:-</b> Git, AWS, Azure, Google Cloud, Figma, Virtual Machine, WordPress, phpMyAdmin.<br><b>Frameworks:-</b> Node JS, React JS, Express JS, MongoDB, Bootstrap, Material-UI.</p>
+        </div>
+        <div id="contact" style="padding-top: 10%; padding-bottom: 10%;">
+            <img src="src/contact.svg" alt="Aman0.com" width="50%" class="mx-auto d-block">
+            <div style="text-align: center; padding-top: 3%; padding-bottom: 3%;">
+
+
+
+                <a href="https://github.com/amanp8l" style="padding: 3%; color: black;" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                        class="bi bi-github" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/amanp8l/" style="padding: 3%; color: black;" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg>
+                </a>
+                <a href="https://twitter.com/amanp8l" style="padding: 3%; color: black;" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                        class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/amanp8l/" style="padding: 3%; color: black;" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/AmanP8l/" style="padding: 3%; color: black;" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                        class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg>
+                </a>
+                <a href="mailto: mail@aman0.com" style="padding: 3%; color: black;" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                        class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                    </svg>
+                </a>
+            </div>
+            <p style="font-size: 150%; text-align: justify; text-justify: inter-word;">However, I am currently looking for a new opportunity. Whether you have any questions or just want to say hi, I'll do my best to get back to you!<br>Feel free to mail me at mail@aman0.com.</p>
+        </div>
     </div>
-    <div class='demopadding'>
-      <div class='icon social in'><a href="https://www.linkedin.com/in/amanp8l/"><i class='fa fa-linkedin'></a></i></div>
-        <div class='icon social tw'><a href="https://github.com/amanp8l"><i class='fa fa-github'></i></a></div>
-        <div class='icon social fb'> <a href="https://www.instagram.com/amanp8l/"> <i class='fa fa-instagram'> </a> </i></div>
-	    </div> 
-     <div class='demopadding'>
-        <h5 title="email" >amanpatel0@outlook.com</h5>
-      </div>  
-     
-    </section>
-    
-    <script>
-        var canvas = $('canvas')[0];
-var context = canvas.getContext('2d');
+    <p style="text-align: center;">* Website Under Maintenance</p>
 
-var Dots = [];
-var ID = 0;
-var colors = ['#FF9900', '#424242', '#BCBCBC', '#3299BB', '#B9D3B0', '#81BDA4', '#F88F79', '#F6AA93'];
-var maximum = 100;
-
-function Dot() {
-  this.active = true;
-  this.id = ID; ID++;
-  
-  this.diameter = 2 + Math.random() * 7;
-
-  this.x = Math.round(Math.random() * canvas.width);
-  this.y = Math.round(Math.random() * canvas.height);
-  
-  this.velocity = {
-    x: (Math.random() < 0.5 ? -1 : 1) * Math.random() * 0.4,
-    y: (Math.random() < 0.5 ? -1 : 1) * Math.random() * 0.4
-  };
-
-  this.alpha = 0.1;
-  this.maxAlpha = this.diameter < 5 ? 0.3 : 0.8;
-  this.hex = colors[Math.round(Math.random() * 7)];
-  this.color = HexToRGBA(this.hex, this.alpha);
-}
-
-Dot.prototype = {
-  Update: function() {
-    if(this.alpha <= this.maxAlpha) {
-      this.alpha += 0.005;
-      this.color = HexToRGBA(this.hex, this.alpha);
-    }
-
-    this.x += this.velocity.x;
-    this.y += this.velocity.y;
-
-    if(this.x > canvas.width + 5 || this.x < 0 - 5 || this.y > canvas.height + 5 || this.y < 0 - 5) {
-      this.active = false;
-    }
-  },
-
-  Draw: function() {
-    context.strokeStyle = this.color;
-    context.fillStyle = this.color;
-    context.save();
-    context.beginPath();
-    context.translate(this.x, this.y);
-    context.moveTo(0, -this.diameter);
-
-    for (var i = 0; i < 7; i++)
-    {
-      context.rotate(Math.PI / 7);
-      context.lineTo(0, -(this.diameter / 2));
-      context.rotate(Math.PI / 7);
-      context.lineTo(0, -this.diameter);
-    }
-
-    if(this.id % 2 == 0) {
-      context.stroke();
-    } else {
-      context.fill();
-    }
-    
-    context.closePath();
-    context.restore();
-  }
-}
-
-function Update() {
-  GenerateDots();
-
-  Dots.forEach(function(Dot) {
-    Dot.Update();
-  });
-
-  Dots = Dots.filter(function(Dot) {
-    return Dot.active;
-  });
-
-  Render();
-  requestAnimationFrame(Update);
-}
-
-function Render() {
-  context.clearRect(0, 0, canvas.width, canvas.height);
-  Dots.forEach(function(Dot) {
-    Dot.Draw();
-  });
-}
-
-function GenerateDots() {
-  if(Dots.length < maximum) {
-    for(var i = Dots.length; i < maximum; i++) {
-      Dots.push(new Dot());
-    }
-  }
-
-  return false;
-}
-
-function HexToRGBA(hex, alpha) {
-  var red = parseInt((TrimHex(hex)).substring(0, 2), 16);
-  var green = parseInt((TrimHex(hex)).substring(2, 4), 16);
-  var blue = parseInt((TrimHex(hex)).substring(4, 6), 16);
-
-  return 'rgba(' + red + ', ' + green + ', ' + blue + ', ' + alpha + ')';
-}
-
-function TrimHex(hex) {
-  return (hex.charAt(0) == "#") ? hex.substring(1, 7) : hex;
-}
-
-function WindowSize(width, height) {
-  if(width != null) { canvas.width = width; } else { canvas.width = window.innerWidth; }
-  if(height != null) { canvas.height = height; } else { canvas.height = window.innerHeight; }
-  
-}
-
-$(window).resize(function() {
-  Dots = [];
-  WindowSize();
-});
-
-WindowSize();
-GenerateDots();
-Update();
-
-// NAVIGATION LOGO SCROLL TOP
-$('.logo').on('click', function(e) {
-    e.preventDefault();
-    $('.nav-toggle').removeClass('open');
-    $('.menu-left').removeClass('collapse');
-    $('html, body').animate({
-      scrollTop: 0
-    }, 750, 'easeInOutQuad')
-  });
-  // LINKS TO ANCHORS
-  $('a[href^="#"]').on('click', function(event) {
-  
-    var $target = $(this.getAttribute('href'));
-  
-    if($target.length) {
-      event.preventDefault();
-      $('html, body').stop().animate({
-        scrollTop: $target.offset().top
-      }, 750, 'easeInOutQuad');
-    }
-  });
-  
-  // TOGGLE HAMBURGER & COLLAPSE NAV
-  $('.nav-toggle').on('click', function() {
-    $(this).toggleClass('open');
-    $('.menu-left').toggleClass('collapse');
-  });
-  // REMOVE X & COLLAPSE NAV ON ON CLICK
-  $('.menu-left a').on('click', function() {
-    $('.nav-toggle').removeClass('open');
-    $('.menu-left').removeClass('collapse');
-  });
-  
-  // SHOW/HIDE NAV
-  
-  // Hide Header on on scroll down
-  var didScroll;
-  var lastScrollTop = 0;
-  var delta = 5;
-  var navbarHeight = $('header').outerHeight();
-  
-  $(window).scroll(function(event){
-      didScroll = true;
-  });
-  
-  setInterval(function() {
-      if (didScroll) {
-          hasScrolled();
-          didScroll = false;
-      }
-  }, 250);
-  
-  function hasScrolled() {
-      var st = $(this).scrollTop();
-  
-      // Make sure they scroll more than delta
-      if(Math.abs(lastScrollTop - st) <= delta)
-          return;
-  
-      // If they scrolled down and are past the navbar, add class .nav-up.
-      // This is necessary so you never see what is "behind" the navbar.
-      if (st > lastScrollTop && st > navbarHeight){
-          // Scroll Down
-          $('header').removeClass('show-nav').addClass('hide-nav');
-          $('.nav-toggle').removeClass('open');
-          $('.menu-left').removeClass('collapse');
-      } else {
-          // Scroll Up
-          if(st + $(window).height() < $(document).height()) {
-              $('header').removeClass('hide-nav').addClass('show-nav');
-          }
-      }
-  
-      lastScrollTop = st;
-  }
-
-var TxtRotate = function(el, toRotate, period) {
-    this.toRotate = toRotate;
-    this.el = el;
-    this.loopNum = 0;
-    this.period = parseInt(period, 100) || 4000;
-    this.txt = '';
-    this.tick();
-    this.isDeleting = false;
-  };
-  
-  TxtRotate.prototype.tick = function() {
-    var i = this.loopNum % this.toRotate.length;
-    var fullTxt = this.toRotate[i];
-  
-    if (this.isDeleting) {
-      this.txt = fullTxt.substring(0, this.txt.length - 1);
-    } else {
-      this.txt = fullTxt.substring(0, this.txt.length + 1);
-    }
-  
-    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-  
-    var that = this;
-    var delta = 150 - Math.random() * 100;
-  
-    if (this.isDeleting) { delta /= 2; }
-  
-    if (!this.isDeleting && this.txt === fullTxt) {
-      delta = this.period;
-      this.isDeleting = true;
-    } else if (this.isDeleting && this.txt === '') {
-      this.isDeleting = false;
-      this.loopNum++;
-      delta = 1000;
-    }
-  
-    setTimeout(function() {
-      that.tick();
-    }, delta);
-  };
-  
-  window.onload = function() {
-    var elements = document.getElementsByClassName('txt-rotate');
-    for (var i=0; i<elements.length; i++) {
-      var toRotate = elements[i].getAttribute('data-rotate');
-      var period = elements[i].getAttribute('data-period');
-      if (toRotate) {
-        new TxtRotate(elements[i], JSON.parse(toRotate), period);
-      }
-    }
-    // INJECT CSS
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #F26921 }";
-    document.body.appendChild(css);
-  };
-  
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
